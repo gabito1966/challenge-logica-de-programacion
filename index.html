@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi challenge de Logica de programacion</title>
+    <link rel="icon" href="img/libro.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body>
+   
+    
+    <body background-image="/img/cataratas.jpg"></body>
+    <h1 class="titulo">First Alura Challenge: Codigo Secreto</h1>
+    <main class="main">
+      <section class="form box">
+        <form id= "form-texto">
+          <label for="input-texto"> <h3>Solo letras minúsculas, sin acento</h3></label>
+          <input class="text-input" type="text" onkeyup="validarTexto(this)" name="texto" id="escritura" placeholder="Ingrese el texto aqui">
+          <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+          <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+        </form>
+      </section>
+  
+      <section class="msg box">
+        <h3>Mensaje encriptado:</h3>
+        <input class="text-input" type="text" id="msg"></input>
+        <input class="btn" type="submit" value="Copiar" id="btn-copy">
+        <input class="btn" type="submit" value="Limpiar" id="btn-clean">
+        <span class="copia" id="texto-copiado"></span>
+      </section>
+    </main>
+
+  <script src="js/script.js"></script>
+
+  <div class="footer">
+    <p>
+        <h2>Realizado por: Gabriel Jorge Garcia</h2>
+        
+    </p>
+
+   
+  </div>
+  
+</body>
+
+</html>
