@@ -21,7 +21,6 @@ No se permite acentuación de palabras
 var botonEncriptado = document.querySelector("#btn-encriptar");
 var textoEncriptado = document.querySelector("#msg");
 var botonDesencriptar = document.querySelector("#btn-desencriptar");
-var botonPegar = document.querySelector("btn-paste")
 var botonCopiar = document.querySelector("#btn-copy");
 var botonLimpiar = document.querySelector("#btn-clean");
 var textArea = document.getElementById("msg");
