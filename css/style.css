@@ -7,11 +7,15 @@
   body {
     background-color: lightslategray;
     font-family: 'Times New Roman', Times, serif;
+    background-image: url(../img/Cataratas.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
     
   }
 
   .main {
-    padding-top: 80px;
+    padding-top: 130px;
     width: 100vw;
     margin: auto;
     display: flex;
@@ -20,7 +24,7 @@
   
   .titulo {
     font-size: 40px;
-    color:darkblue;
+    color:yellow;
     padding: 15px;
     width: 50vw;
     margin: auto;
